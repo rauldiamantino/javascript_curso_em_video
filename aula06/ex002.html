@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(101, 101, 156);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(221, 145, 3);
+        }  
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Primeira aula de programação em JavaScript!</p>
+    
+    <!-- O javascript geralmente vai ser criado no final do body -->
+    <!-- Também é possível criar script externo -->
+    <!-- Comandos em JavaScript na maioria das vezes em letra minúscula, existem exceções -->
+    <script>
+        var nome = window.prompt('Qual é seu nome?') 
+        // prompt vai perguntar o nome, apresentar ok e cancelar
+        //  a variável nome recebe o resultado do prompt que vai aparecer na janela, e nele estará escrito qual é o seu nome.
+        var idade = window.prompt('Qual é sua idade (somente números)?')        
+        window.alert('É um grande prazer te conhecer, ' + nome + '! Que legal, você tem ' + idade + ' anos!!!') // O + é a concatenação
+    </script>
+</body>
+</html>
+
